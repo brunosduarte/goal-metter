@@ -7,7 +7,10 @@ import { Plus } from 'lucide-react'
 export function EmptyGoals() {
   return (
     <div className="h-screen flex flex-col items-center justify-center gap-8">
+      <div className="flex gap-2">
       <GoalsKeeperIcon />
+      <p className="font-extrabold">GoalsKeeper</p>
+      </div>
       <img src={letsStart} alt="" />
       <p className="text-zinc-300 leading-relaxed max-w-80 text-center">
         Você ainda não cadastrou nenhuma meta, que tal cadastrar uma agora mesmo?
