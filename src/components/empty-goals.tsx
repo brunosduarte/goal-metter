@@ -1,4 +1,4 @@
-import letsStart from '../assets/illustration.svg'
+import letsStart from '@/assets/illustration.svg'
 import { GoalsKeeperIcon } from './icon'
 import { DialogTrigger } from './ui/dialog'
 import { Button } from './ui/button'
